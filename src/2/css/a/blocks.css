@@ -1,0 +1,124 @@
+/* bloques redondeados */
+
+
+
+/* main */
+
+
+#main {
+	background: #fff6d8;
+}
+
+#main div {
+	background: url(i/main-tl.png) top left no-repeat;
+}
+
+#main div div {
+	background: url(i/main-tr.png) top right no-repeat;
+	padding-top: 13px;
+}
+
+#main div div div {
+	padding: 0;
+	background: url(i/main-bl.png) bottom left no-repeat;
+}
+
+#main div div div div {
+	background: url(i/main-br.png) no-repeat right bottom;
+	padding: 0 16px 16px 16px;
+	
+}
+
+ /* #main div div div div {
+        /* limpiamos los (posibles) floats 
+	overflow: auto;
+    }*/
+	
+ #main div div div div div {
+	padding: 0;
+	background: transparent;
+    }
+
+/* bloques */
+.block {
+	background: #c1ccd0;
+}
+
+#sidebar1 .block {
+	background: #fff6d8;
+}
+
+
+.block div {
+	background: url(i/block-tr.png) top right no-repeat;
+	padding-top: 13px;
+}
+
+#sidebar1 .block div {
+	background: url(i/block2-tl.png) top left no-repeat;
+}
+
+.block div div {
+	background: url(i/block-br.png) bottom right no-repeat;
+	padding-top: 0;
+	padding-bottom: 13px;
+}
+
+#sidebar1 .block div div {
+	background: url(i/block2-bl.png) bottom left no-repeat;
+}
+
+
+.block div div div, #sidebar1 .block div div div{
+	background: transparent;
+	padding: 0;
+}
+
+.block div div div div, #sidebar1 .block div div div div{
+	padding: 0 12px;
+}
+
+
+.block h2 {
+	margin: 0 0 .6em;
+	font-size: 1.09em;
+	line-height: 1.4;
+	color: #555;
+	border: 1px solid #555;
+	border-width: 0 0 2px 0;
+	padding: 3px 0;
+}
+
+
+.block ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#sidebar1 .block ul {
+	padding: 0;
+	margin: 0;
+	list-style:  none;
+}
+
+
+.block li {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 0 .8em;
+	line-height: 1.4;
+	padding: 0;
+	list-style: none;
+}
+
+.block li li {
+	padding-left: 12px;
+	font-weight: normal;
+	text-transform: none;
+	margin: 0 0 .2em;
+}
+
+.block li a {
+	text-decoration: none;
+}

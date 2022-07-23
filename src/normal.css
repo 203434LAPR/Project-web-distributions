@@ -1,0 +1,53 @@
+.caja{
+    border: 1px solid black;
+}
+
+#body{
+    height: 600px;
+    padding: 5%;
+    margin: 2%;
+}
+.entrada{
+    display: flex;
+    justify-content: center;
+}
+.entrada input{
+    margin-left: 2%;
+    margin-right: 6%;
+    height: 30px;
+    width: 15%;
+}
+
+.opcion{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.opcion button{
+    height: 40px;
+}
+
+.opcion input{
+
+    margin-right: 5%;
+    width: 130px;
+    height: 40px;
+}
+
+#entre{
+    display: flex;
+    justify-content: space-around;
+}
+
+#entre input{
+    margin-right: 0%;
+}
+
+.resul{
+    margin-top: 5%;
+}
+
+#resultado{
+    height: 45px;
+    width: 20%;
+}

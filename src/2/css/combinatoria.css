@@ -1,0 +1,52 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #dee6b1; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #a5b6bc}
+
+FORM {
+	DISPLAY: inline
+}
+.contenido {
+	PADDING-LEFT: 10px; FONT-SIZE: 11px; COLOR: #003399; MARGIN-RIGHT: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fff6d8 }
+DT {
+	MARGIN-TOP: 2px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(../imagenes/menu2.jpg); MARGIN-LEFT: 2px; COLOR: #f0f1ff; FONT-FAMILY: verdana,"Times New Roman", Times, serif; BACKGROUND-COLOR: #8888ff
+}
+DD {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN-LEFT: 15px; MARGIN-RIGHT: 10px; PADDING-TOP: 4px; FONT-FAMILY: verdana,"Times New Roman", Times, serif
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #003399; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #e5e6ff; BACKGROUND-COLOR: #333399; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../imagenes/menu3.jpg); BORDER-LEFT: black 1px solid; COLOR: #333399; BORDER-BOTTOM: black 1px solid
+}
+BUTTON {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(../imagenes/menu3.jpg); BORDER-LEFT: black 1px solid; COLOR: #333399; BORDER-BOTTOM: black 1px solid
+}
+H2 {
+	PADDING-LEFT: 10px; FONT-SIZE: 15px; MARGIN-LEFT: 5px; COLOR: #e5e6ff; MARGIN-RIGHT: 5px; BACKGROUND-COLOR: #333399
+}
+H1 {
+	FONT-SIZE: 20px; BACKGROUND: #333399; WIDTH: 100%; COLOR: #e5e6ff
+}
+DIV.contenedor {
+	WIDTH: 100%
+}
+DIV.navegador {
+	PADDING-RIGHT: 10px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	TEXT-ALIGN: right;
+	color:  #8888ff;
+
+}
+DIV.contenido {
+	PADDING-LEFT: 10px; FONT-SIZE: 11px
+}
+DIV.resultado {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 13px; BORDER-LEFT: black 1px solid; WIDTH: 400px; COLOR: #333399; BORDER-BOTTOM: black 1px solid
+}

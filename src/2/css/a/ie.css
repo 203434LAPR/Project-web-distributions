@@ -1,0 +1,20 @@
+/* IE specific */
+#wrapper {
+	width: expression(
+		(document.body.clientWidth <= 600) 
+		? 
+		'600px'
+		:
+		(document.body.clientWidth >= 1024)
+		?
+		'1024px'
+		:
+		'auto'
+		);
+
+}
+/* #main div div div div {*/
+        /* limpiamos los (posibles) floats */
+	/*overflow: auto;*/
+/*zoom: 1 /* solo IE < 7 */
+ /*   }*/

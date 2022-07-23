@@ -1,0 +1,22 @@
+#masthead, 
+#primary-links,
+#secondary-links,
+#quote,
+#sidebar1,
+#sidebar2,
+.sIFR-flash,
+hr,
+#search
+ {display: none;}
+ 
+ a {
+color: #000;
+}
+
+body {
+font-family: serif;
+font-size: 12pt;
+
+}
+
+

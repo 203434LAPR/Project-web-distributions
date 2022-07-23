@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+        "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	
+
+  <title>Estadística </title>
+
+
+  
+  <link rel="stylesheet" type="text/css" href="/css/a/style.css" media="screen,projection" title="azul" />
+  <link rel="stylesheet" type="text/css" href="/css/combinatoria.css">
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+
+
+
+
+
+  <script src="js/binomial.js" type="text/javascript"></script>
+
+  <!--[if lte IE 6]>
+   <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen,projection" /> 
+  <![endif]-->
+ 
+  
+ </head>
+
+
+<body>
+  
+    <a name=0></a> 
+
+         <TABLE height="100%" cellSpacing=0 cellPadding=0 align=center bgColor=#333399 border=0>
+  <TBODY>
+  
+  
+  <TR>
+  
+  
+  <TD 
+    style="WIDTH: 12px; BACKGROUND-COLOR: #333399">&nbsp; 
+    </TD>
+    <TD>
+         
+         <TABLE height="100%" cellSpacing=0 cellPadding=0 bgColor=#fff6d8 border=0>
+                  <!--DWLayoutTable-->
+                  <TBODY>
+                    <TR>
+					
+					                
+                      
+      <TD width=580 rowspan="2">
+                    <H1 align="center">DISTRIBUCIÓN BINOMIAL</H1>
+					                
+                          
+                        
+              <P ><img  class="left" height=71 
+src="i/binomial.gif" width=359 border=0></P>        
+       
+                          
+						  
+						  
+				<br />
+	<br /><br /><br /><br />
+  <TABLE width=580 border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle width="100%">
+      &nbsp;&nbsp;&nbsp;<FORM>
+	  
+                        <P align="center"><FONT size=2><I><BR>
+                          <font color="#514226">Calcular la probabilidad de obtener 
+                          exactamente k-éxitos</font></I></FONT></P>
+	  <P align=center><IMG height=64 
+src="i/binomial_form.gif" width=183 border=0> </p>
+	  
+            <P>&nbsp; <I><FONT size=2>Siendo</FONT> </I><FONT size=3>B( 
+              </FONT> 
+              <!--webbot
+  bot="Validation" B-Value-Required="TRUE" I-Maximum-Length="4" -->
+              <INPUT 
+      maxLength=4 size=2 value=8 name=pruebas>
+              <FONT size=3>, </FONT> 
+              <!--webbot bot="Validation" B-Value-Required="TRUE"
+  I-Maximum-Length="6" -->
+              <INPUT maxLength=6 size=6 value=0.25 
+      name=probabilidad>
+              <FONT size=5>)</FONT><FONT size=3>&nbsp; </FONT><I><FONT 
+      size=3>calcular&nbsp;</FONT></I><FONT size=2> P</FONT><FONT size=2>( X <B>=</B> 
+              </FONT> 
+              <!--webbot bot="Validation"
+  B-Value-Required="TRUE" I-Maximum-Length="4" -->
+              <INPUT maxLength=4 
+      size=3 value=3 name=exitos>
+              <FONT size=5>)<BR>
+              </FONT><FONT color=#ff0000 
+      >Ejemplo:&nbsp;<I> para </I>n = 8&nbsp; <I>y</I>&nbsp; p = 0.25&nbsp;<I> 
+              calcular la probabilidad de </I>3<I> </I>éxitos.</FONT></P>
+            <hr color=#000000 size=1>
+            <P align=center>
+              <input name="button" type=button onClick=Binomial(pruebas.value,probabilidad.value,exitos.value) value="Calcular Probabilidad">
+              <INPUT size=32 value="--- solución ---" name=respuesta>
+            </P>
+          </FORM></TD></TR></TBODY></TABLE></DIV>
+		  
+		  <br />
+
+<TABLE width=580 border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle width="100%">
+      <FORM>
+                        <P align="center"><FONT size=2><I><BR>
+                          <font color="#514226">Calcular la probabilidad de obtener 
+                          a lo sumo k-éxitos</font></I></FONT></P>
+	          <P align=center><IMG height=49 
+src="http://www.estadisticaparatodos.es/software/misjavascript/i/binomial_dist.gif" width=235 border=0></P>
+              <P>&nbsp;<I><FONT size=2>Siendo</FONT> </I><FONT size=2>B( </FONT>
+                <!--webbot
+  bot="Validation" B-Value-Required="TRUE" I-Maximum-Length="4" -->
+                <INPUT 
+      maxLength=4 size=3 value=20 name=pruebas> <FONT size=3>, </FONT><!--webbot bot="Validation" B-Value-Required="TRUE"
+  I-Maximum-Length="6" --><INPUT maxLength=6 size=6 value=0.4 
+      name=probabilidad>
+                <FONT size=4>)</FONT><FONT 
+      size=2><I>&nbsp; calcular&nbsp;</I>P( </FONT><FONT 
+      size=2><font size="2">X</font> <FONT face=Symbol><B>£</B></FONT> </FONT> 
+                <!--webbot bot="Validation"
+  B-Value-Required="TRUE" I-Maximum-Length="4" -->
+                <INPUT maxLength=4 
+      size=3 value=9 name=exitos>
+                <FONT size=3>)</FONT><FONT size=3><BR>
+                </FONT><FONT color=#ff0000 
+      >Ejemplo:&nbsp;<I> para </I>n = 20&nbsp; <I>y</I>&nbsp; p = 
+      0.4&nbsp;<I> calcular la probabilidad<BR>de obtener como mucho 9</I><I> 
+      </I>éxitos.</FONT></P>
+      <HR color=#000000 SIZE=1>
+
+      <P><INPUT onclick=BinomialAcu(pruebas.value,probabilidad.value,exitos.value) type=button value="Calcular Probabilidad">&nbsp; 
+      <INPUT size=32 value="- solución -" name=respuesta> 
+  </P></FORM></TD></TR></TBODY></TABLE></DIV>
+
+
+                    
+				
+				
+				
+				
+				
+				
+				  
+           
+                  
+						
+						
+                   
+                          
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						
+                       
+						  
+						  
+						  
+						  
+						  
+                          
+						
+						</br>  
+						  
+						  
+						  
+						  
+						  
+						  
+						 
+                         
+                        
+                     
+                      
+                      
+                         
+                              
+                          
+                        <!-- ITEM final -->
+                    
+		
+		
+    <TD style=" WIDTH: 12px; BACKGROUND-COLOR: #333399">&nbsp; </TD>
+	
+	
+	</TR></TBODY></TABLE>
+         <br />       
+	</body>
+	</html>

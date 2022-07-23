@@ -1,0 +1,336 @@
+@import 'layout.css';
+@import 'blocks.css';
+
+
+
+@import 'sifr-screen.css';
+@import 'ie.css';
+
+html {
+	background: #333333;
+}
+
+body {
+	font: 12px/1.5 verdana;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #c1ccd0;
+}
+
+#wrapper {
+	background: #a5b6bc;
+	
+}
+
+#primary-links, #secondary-links, #search, #sidebar1, #sidebar2, #breadcrumb, #footer, #quote {
+	font-size: .916em;
+}
+
+a {
+	color: #3165ce;
+}
+
+a:hover {
+	color: #de614b;
+}
+
+
+
+
+h1, h2, h3 {
+	line-height: 1.2;
+}
+
+h1{
+	margin-top: 0;
+	color: #6d7578;
+	border-bottom: 2px solid;
+	font-size: 1.75em;
+}
+
+h2 {
+	margin-top: 0;
+	background: url(../../i/h1-bg.gif) bottom repeat-x;
+
+	font-size: 1.6em;
+}
+
+/* titular con puntos */
+
+h3{
+	font: bold 1.3em Arial;
+	color: #333;
+	margin: 1.6em 0 0.6em 0;
+	padding-bottom: 0.3em;
+	background: url(../../h1-bg.gif) bottom repeat-x;
+	TEXT-TRANSFORM: uppercase;
+}
+
+h4 {
+	margin-top: 0;
+	
+	font-size: 1.2 em;
+}
+
+
+h5 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 20px; PADDING-LEFT: 0px;  MARGIN-BOTTOM: 0px;
+	 PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; COLOR: #2f6670; PADDING-TOP: 0px; HEIGHT: 15px
+}
+
+
+
+
+li {
+/*	list-style-image: none;
+	list-style-type: none; */
+}
+
+
+.left {
+	float: left;
+	margin: 0 12px 12px 0;
+	clear: left;
+}
+
+.right {
+	float: right;
+	margin: 0 0 12px 12px;
+}
+
+.pclear {
+	clear: left;
+}
+
+.indice {
+	
+	font-size: 1em;
+	color: #999999;
+}
+.centro {
+	text-align: center;
+}
+pre {
+    margin-top: 5px;
+    padding: 4px;
+    background-color: #e3e2c6;
+    border: 1px solid #999;
+}
+
+
+.caption {
+	FONT: bold 12px Georgia, "Times New Roman", Times, serif;
+	TEXT-TRANSFORM: uppercase;
+	COLOR: #bd9d51;
+	BORDER-BOTTOM: #e3d9b5 1px solid;
+	LETTER-SPACING: 2px;
+}
+
+.caption2 {
+	FONT: bold 10px Georgia, "Times New Roman", Times, serif; TEXT-TRANSFORM: uppercase; COLOR: #bd9d51; BORDER-BOTTOM: #e3d9b5 1px solid; LETTER-SPACING: 2px
+}
+
+#wrapper {
+	width: expression(
+		(document.body.clientWidth <= 771) 
+		? 
+		'771px'
+		:
+		(document.body.clientWidth >= 1024)
+		?
+		'1024px'
+		:
+		'auto'
+		);
+
+}
+
+
+/* recuadro con definici�n */
+
+dfn{
+	display: block;
+	margin: 1em 1em 2em 1em;
+	padding: 0.8em;
+	border: 1px solid #D8E8FA;
+	background-color: #faf5e0;
+	font: italic 1.1em/1.5em "Trebuchet MS", sans-serif;
+
+}
+.dfn1{
+	display: block;
+	margin: 1em 1em 2em 1em;
+	padding: 0.8em;
+	border: 1px solid #D8E8FA;
+	background-color: #faf5e0;
+	font: italic 1.1em/1.5em "Trebuchet MS", sans-serif;
+
+}
+
+
+/* codigo */
+
+code{
+	background-color: #F0F0F0;
+	border: 1px solid #666; 
+	width: 480px;
+	max-height: 150px;
+	overflow: auto;
+	display: block;color: #0066CC;
+	font: .85em/1.3em "Trebuchet MS",sans-serif; 
+}
+/* """" */
+.comillas {
+  margin: 0 0 0 30px;
+  padding: 10px 0 0 20px;
+  font-size: 88%;
+  line-height: 1.5em;
+  color: #666;
+  background: url(../../quotes.gif) no-repeat top left;
+  }
+
+.resumen{
+	display: block;
+	padding: 0.8em;
+	border: 1px solid #669933;
+	background-color: #DCDC98;
+	font: italic 1.1em/1.5em "Trebuchet MS", sans-serif;
+	margin-right: 1em;
+	margin-bottom: 3em;
+	margin-left: 8em;
+	margin-top: 3px;
+
+}
+
+/* texto principal*/
+.principal{
+	display: block;
+	margin: 1em 1em 2em 1em;
+	padding: 0.8em;
+	border: 1px solid #D8E8FA;
+	background-color: #faf5e0;
+	font: italic  1.1em/1.5em "Trebuchet MS", sans-serif;
+
+}
+
+
+m
+/* Abrir soluciones */
+.showHide {
+	DISPLAY: none; PADDING-LEFT: 60px; BACKGROUND-COLOR: #dcdcdc
+}
+
+/* continuar leyendo */
+p.mas{
+	margin: 0;
+	padding: 0 22px !important;
+	text-align: right;
+}
+
+.mas a{
+	font-size: .8em; /*background-color:#EEF1D6;
+border:1px solid #DEE6B1;
+padding:2px 6px;*/
+	font-weight: bold;
+	text-transform: uppercase;
+		text-align: right;
+ TEXT-DECORATION: none; outline: none
+}
+
+
+
+
+
+/* escrito por */
+
+P.metapost {
+	PADDING-RIGHT: 16px! important; BORDER-TOP: #faf0cc 1px solid; PADDING-LEFT: 16px! important; FONT-SIZE: 1em; PADDING-BOTTOM: 4px! important; MARGIN: 8px 0px 18px; TEXT-TRANSFORM: uppercase; COLOR: #7b6f51; PADDING-TOP: 4px! important; FONT-FAMILY: Tahoma,Verdana,Arial,Helvetica,sans-serif; BACKGROUND-COLOR: #fef7dd; TEXT-ALIGN: right
+}
+.metapost A {
+	FONT-WEIGHT: bold; COLOR: #bd9d51
+}
+
+.caption {
+	FONT: bold 10px Georgia, "Times New Roman", Times, serif; TEXT-TRANSFORM: uppercase; COLOR: #bd9d51; BORDER-BOTTOM: #e3d9b5 1px solid; LETTER-SPACING: 2px
+}
+H6{
+	PADDING-RIGHT: 0px; MARGIN-TOP: 20px; PADDING-LEFT: 0px; FONT-SIZE: 14px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; COLOR: #2f6670; PADDING-TOP: 0px; HEIGHT: 15px
+}
+
+.rojo
+ { 
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 10pt; 
+  font-weight: bold; 
+  color: #9B0000
+ }
+ .negro
+ { 
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 10pt; 
+  font-weight: bold; 
+  color: #000000
+ } 
+
+
+
+
+.titular {
+	FONT-WEIGHT: bold; FONT-SIZE: medium; COLOR: #4d5266; FONT-FAMILY: Verdana,Arial; TEXT-ALIGN: right
+}
+
+
+
+
+
+
+
+
+   /* Menu de la izquierda */
+
+
+#navigation #active a {
+   /* background: url(imagen) no-repeat left top;  background del li*/
+ 
+	color:#6d7578;
+
+}
+
+   /* Menu de la derecha */
+
+  #navigation2 #active2 a {
+ 
+	color:#FFFFFF;
+	
+	}
+
+
+/* Estilo indice */
+
+
+.indi {
+	COLOR: #7b6f51
+}
+}
+.indi UL LI {
+	PADDING-BOTTOM: 2px; BORDER-BOTTOM: #f7efcf 2px solid
+}
+.indi A {
+	/* COLOR: #2f6670; TEXT-DECORATION: none; outline: none
+ */
+COLOR: ##0099FF; TEXT-DECORATION: none; outline: none
+	
+}
+
+
+}
+.indi A:hover {
+	COLOR: #7c8941
+}
+
+
+.catorce {
+	font-size: 14px;
+	color: #003366;
+}

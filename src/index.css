@@ -1,0 +1,12 @@
+.caja{
+    border: 1px solid black;
+}
+
+#body{
+    height: 800px;
+    padding: 2%;
+}
+
+#body h3{
+    text-align: center;
+}
